@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const { type } = require("os");
-const url_bd = "";
+const url_bd = "localhost:27017/global";
 
 mongoose
   .connect(url_bd)
